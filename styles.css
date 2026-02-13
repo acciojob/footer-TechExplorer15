@@ -1,1 +1,48 @@
 /* your code here */
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer Main */
+footer{
+  background: #111;
+  width: 100%;
+  color: #fff;
+}
+
+footer .content{
+  max-width: 1250px;
+  margin: auto;
+  padding: 40px 30px;
+}
+
+/* Top Section */
+footer .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+footer .logo_name{
+  font-size: 26px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* Social Media Icons */
+footer .media-icons{
+  display: flex;
+  gap: 12px;
+}
+
+footer .media-icons a{
+  height: 40px;
+  width: 40px;
+  background: #222;
